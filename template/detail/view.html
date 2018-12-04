@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="{$bings['content']}" />
+    <meta name="keywords" content="{$bings['name']}" />
+    <link rel="stylesheet" type="text/css" href="<?php echo config('options')['domain'];?>/template/static/css/iconfont.css">
+    <link rel="icon" href="<?php echo config('options')['domain'];?>/template/static/images/bing.ico" sizes="32x32">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="<?php echo config('options')['domain'];?>/template/static/css/progressively.css">
+    <link rel="stylesheet" href="<?php echo config('options')['domain'];?>/template/static/css/common.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo config('options')['domain'];?>/template/static/css/main.css?v=">
+    <title>必应壁纸_{$bings['date']}_{$bings['name']}</title>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5f18eaeb7bce19b4fa39d079f4c10c7e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+<body class="detail" oncontextmenu="self.event.returnValue=false">
+<div class="preview">
+    <div class="progressive"></div>
+    <?php $img=config('options')['img_source'];if($img=='sina'):?>
+    <div class="mark" style='background-image:url({$bings["sina_url"]});filter: blur(3px);'></div>
+    <?php elseif($img=='qiniu'):?>
+    <div class="mark" style='background-image:url({$bings["img_url"]});filter: blur(3px);'></div>
+    <?php endif;?>
+    <div class="options">
+        <a class="ctrl left" href="javascript:history.go(-1)">
+            <i class="icon icon-left"></i>
+            <em class="t">返回</em>
+        </a>
+        
+        <a class="ctrl" href="https://api.neweb.top" rel="nofollow" title="返回至首页">
+            <i class="fa fa-home"></i>
+            <em class="t">首页</em>
+        </a>
+        <span class="imagesJs">
+        <?php $img=config('options')['img_source'];if($img=='sina'):?>
+        <a class="ctrl" href="{$bings['sina_url']}" target="_blank" rel="nofollow" download="" title="如下载失败，鼠标右击选择【图片另存为】。">
+        <?php elseif($img=='qiniu'):?>
+         <a class="ctrl" href="{$bings['img_url']}" target="_blank" rel="nofollow" download="" title="如下载失败，鼠标右击选择【图片另存为】。">
+        <?php endif;?>
+            <i class="fa fa-download"></i>
+            <em class="t">下载壁纸</em>
+        </a>
+        </span>
+    </div>
+    <div class="description">
+        <p class="title colorful">{$bings['name']}</p>
+        <p class="sub">{$bings['content']}</p>
+        <p class="calendari icon icon-calendar">
+            <em class="t">{$bings['date']}</em>
+        </p>
+        <p class="location">
+            <i class="icon icon-location"></i>
+            <em class="t">{$bings['area']}</em>
+        </p>
+        <p class="view">
+            <i class="icon icon-eye"></i>
+            <em class="t">{$bings['view_num']}</em>
+        </p>
+    </div>
+</div>
+
+<script type="text/javascript">
+        // 为了看到效果加个延时
+        setTimeout(function(){
+            // 若图片URL失效请自行替换
+            var imgUrl = $(".imagesJs a").attr('href');
+            var imgObject = new Image();
+
+            imgObject.src = imgUrl;
+            imgObject.onload = function(){
+               $('.mark').css({
+                    backgroundImage: 'url('+imgUrl+')',
+                    filter: 'blur(0)'
+                });
+            }
+        },1000)
+    </script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["qzone","sqq","tsina","weixin","tieba","tqq","youdao","fbook","twi","linkedin","copy"],"bdPic":"","bdStyle":"1","bdSize":"16"},"slide":{"type":"slide","bdImg":"3","bdPos":"right","bdTop":"100"},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"24"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='https://xiaolexin.github.io/le/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+</body>
+</html>

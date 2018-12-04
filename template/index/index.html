@@ -1,0 +1,42 @@
+{include file="common/header" /}
+<div class="holder"></div>
+<div class="mask"></div>
+<div class="container">
+    {volist name='bings' id='v'}
+    <div class="item">
+        <div class="card progressive">
+            <?php $op=config('options');if($op['img_source']=='sina'):?>
+            <img src="__TEMPLATE__static/images/loading.jpg" data-original="{$v.sina_url}" class="lazy s_pic">
+            <?php elseif($op['img_source']=='qiniu'):?>
+            <img src="__TEMPLATE__static/images/loading.jpg" data-original="{$v.img_url}" class="lazy s_pic">
+            <?php endif;?>
+            <a class="mark" href="{:url('index/view',['date'=>$v.date])}"></a>
+            <div class="description" style="font-size:14px;font-weight:bold">
+                <p>
+                <i class="fa fa-diamond"></i>
+                <em class="t">{$v.name}</em>
+                </p>
+                <p class="calendar">
+                    <i class="fa fa-calendar-check-o"></i>
+                    <em class="t">{$v.date}</em>
+                </p>
+                <p class="location">
+                    <i class="fa fa-globe"></i>
+                    <em class="t">{$v.area}</em>
+                </p>
+            </div>
+            <div class="options">
+
+                <a class="ctrl download" href="javascript:;" target="_blank" rel="nofollow" title="被查看次数">
+                     <i class="fa fa-eye"></i>
+                    <em class="t">{$v.view_num}</em>
+                </a>
+            </div>
+        </div>
+    </div>
+    {/volist}
+</div>
+<div class="page">
+    {$pages}
+</div>
+{include file="common/footer" /}

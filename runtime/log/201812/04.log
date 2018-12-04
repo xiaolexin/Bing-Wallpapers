@@ -1,0 +1,2563 @@
+---------------------------------------------------------------
+[ 2018-12-04T09:35:20+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.039000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:38:06+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:39:08+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:39:32+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:39:42+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:39:54+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181202.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181202' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.023000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=16  WHERE  `date` = 20181202 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:40:15+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181202.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181202' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=17  WHERE  `date` = 20181202 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:40:19+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181202.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181202' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.032000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=18  WHERE  `date` = 20181202 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:40:22+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:40:24+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181130.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181130' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=14  WHERE  `date` = 20181130 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:40:54+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181130.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181130' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=15  WHERE  `date` = 20181130 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:40:57+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.037000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:41:00+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181127.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181127' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.036000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=30  WHERE  `date` = 20181127 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:41:10+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:47:47+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:47:51+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181130.html
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181130' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=16  WHERE  `date` = 20181130 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:47:55+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:48:19+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:49:34+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.031000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:49:38+08:00 ] 127.0.0.1 GET www.bing.net:808/?p=9
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 96,12 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:49:45+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:53:29+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+[ error ] [4]语法错误: unexpected 'endforeach' (T_ENDFOREACH)
+---------------------------------------------------------------
+[ 2018-12-04T09:54:09+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+[ error ] [4]语法错误: unexpected 'endforeach' (T_ENDFOREACH)
+---------------------------------------------------------------
+[ 2018-12-04T09:54:23+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.114000s] [吞吐率：0.90req/s] [内存消耗：2,992.13kb] [文件加载：61]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888185',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+[ error ] [4]语法错误: unexpected 'endforeach' (T_ENDFOREACH)[E:\Tp5_Bing\runtime\temp\48bbc187515752843d1f8bee152898db.php:101]
+---------------------------------------------------------------
+[ 2018-12-04T09:54:37+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.077000s] [吞吐率：0.93req/s] [内存消耗：3,002.29kb] [文件加载：61]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888185',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+[ error ] [4]语法错误: unexpected 'endforeach' (T_ENDFOREACH)[E:\Tp5_Bing\runtime\temp\48bbc187515752843d1f8bee152898db.php:101]
+---------------------------------------------------------------
+[ 2018-12-04T09:55:21+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.082000s] [吞吐率：0.92req/s] [内存消耗：3,171.23kb] [文件加载：61]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888185',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:55:39+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181204.html
+[运行时间：1.075000s] [吞吐率：0.93req/s] [内存消耗：2,777.20kb] [文件加载：54]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888522',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181204',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181204' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=6  WHERE  `date` = 20181204 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:55:48+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.097000s] [吞吐率：0.91req/s] [内存消耗：3,010.16kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:56:03+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.078000s] [吞吐率：0.93req/s] [内存消耗：3,010.26kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888549',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T09:56:09+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.101000s] [吞吐率：0.91req/s] [内存消耗：3,010.26kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888563',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:00:30+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.118000s] [吞吐率：0.89req/s] [内存消耗：3,171.18kb] [文件加载：61]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888569',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:00:34+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181130.html
+[运行时间：1.057000s] [吞吐率：0.95req/s] [内存消耗：2,924.02kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888831',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181130',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181130' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=17  WHERE  `date` = 20181130 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:00:39+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.069000s] [吞吐率：0.94req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888834',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:00:42+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181202.html
+[运行时间：1.080000s] [吞吐率：0.93req/s] [内存消耗：2,777.21kb] [文件加载：54]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888840',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181202',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181202' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=19  WHERE  `date` = 20181202 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:00:45+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.063000s] [吞吐率：0.94req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888842',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:05:20+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181203.html
+[运行时间：1.082000s] [吞吐率：0.92req/s] [内存消耗：2,924.60kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543888846',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181203',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181203' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=16  WHERE  `date` = 20181203 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:05:32+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.106000s] [吞吐率：0.90req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889121',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:05:35+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181127.html
+[运行时间：1.094000s] [吞吐率：0.91req/s] [内存消耗：2,777.50kb] [文件加载：54]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889132',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181127',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181127' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=31  WHERE  `date` = 20181127 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:05:40+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.096000s] [吞吐率：0.91req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889136',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:07:14+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.073000s] [吞吐率：0.93req/s] [内存消耗：3,010.34kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889140',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.997000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:07:17+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181123.html
+[运行时间：1.059000s] [吞吐率：0.94req/s] [内存消耗：2,925.87kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889234',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181123' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=92  WHERE  `date` = 20181123 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:07:20+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.091000s] [吞吐率：0.92req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889237',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:11:02+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.099000s] [吞吐率：0.91req/s] [内存消耗：3,010.34kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889241',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:11:06+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181204.html
+[运行时间：1.093000s] [吞吐率：0.91req/s] [内存消耗：2,924.88kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889463',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181204',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181204' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=7  WHERE  `date` = 20181204 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:11:08+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/undefined
+[运行时间：1.070000s] [吞吐率：0.93req/s] [内存消耗：2,799.05kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/bing/20181204.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889467',
+)
+[ info ] [ PARAM ] array (
+  'date' => 'undefined',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='undefined' [ RunTime:0.001000s ]
+[ error ] [8]未定义数组下标: 0[E:\Tp5_Bing\application\index\model\Bing.php:42]
+---------------------------------------------------------------
+[ 2018-12-04T10:11:14+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.099000s] [吞吐率：0.91req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889467',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:11:16+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181203.html
+[运行时间：1.071000s] [吞吐率：0.93req/s] [内存消耗：2,777.40kb] [文件加载：54]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889475',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181203',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181203' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=17  WHERE  `date` = 20181203 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:11:18+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/undefined
+[运行时间：1.074000s] [吞吐率：0.93req/s] [内存消耗：2,799.05kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/bing/20181203.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889477',
+)
+[ info ] [ PARAM ] array (
+  'date' => 'undefined',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='undefined' [ RunTime:0.000000s ]
+[ error ] [8]未定义数组下标: 0[E:\Tp5_Bing\application\index\model\Bing.php:42]
+---------------------------------------------------------------
+[ 2018-12-04T10:13:08+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181203.html
+[运行时间：1.107000s] [吞吐率：0.90req/s] [内存消耗：2,925.24kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889477',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181203',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181203' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=18  WHERE  `date` = 20181203 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:13:10+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/%7Bconfig('options')['img_source']%7D
+[运行时间：1.091000s] [吞吐率：0.92req/s] [内存消耗：2,799.50kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/bing/20181203.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889589',
+)
+[ info ] [ PARAM ] array (
+  'date' => '{config(\'options\')[\'img_source\']}',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='{config(\'options\')[\'img_source\']}' [ RunTime:0.001000s ]
+[ error ] [8]未定义数组下标: 0[E:\Tp5_Bing\application\index\model\Bing.php:42]
+---------------------------------------------------------------
+[ 2018-12-04T10:15:23+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181203.html
+[运行时间：1.100000s] [吞吐率：0.91req/s] [内存消耗：2,925.10kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889589',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181203',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181203' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=19  WHERE  `date` = 20181203 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:15:25+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/undefined
+[运行时间：1.097000s] [吞吐率：0.91req/s] [内存消耗：2,799.06kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/bing/20181203.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889724',
+)
+[ info ] [ PARAM ] array (
+  'date' => 'undefined',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='undefined' [ RunTime:0.002000s ]
+[ error ] [8]未定义数组下标: 0[E:\Tp5_Bing\application\index\model\Bing.php:42]
+---------------------------------------------------------------
+[ 2018-12-04T10:15:28+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.101000s] [吞吐率：0.91req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889724',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:15:31+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181127.html
+[运行时间：1.084000s] [吞吐率：0.92req/s] [内存消耗：2,777.46kb] [文件加载：54]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889728',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181127',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181127' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=32  WHERE  `date` = 20181127 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:15:33+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/undefined
+[运行时间：1.096000s] [吞吐率：0.91req/s] [内存消耗：2,799.06kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/bing/20181127.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889732',
+)
+[ info ] [ PARAM ] array (
+  'date' => 'undefined',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='undefined' [ RunTime:0.001000s ]
+[ error ] [8]未定义数组下标: 0[E:\Tp5_Bing\application\index\model\Bing.php:42]
+---------------------------------------------------------------
+[ 2018-12-04T10:15:58+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181127.html
+[运行时间：1.107000s] [吞吐率：0.90req/s] [内存消耗：2,925.27kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889732',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181127',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181127' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=33  WHERE  `date` = 20181127 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:16:02+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/undefined
+[运行时间：1.090000s] [吞吐率：0.92req/s] [内存消耗：2,799.06kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/bing/20181127.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889758',
+)
+[ info ] [ PARAM ] array (
+  'date' => 'undefined',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='undefined' [ RunTime:0.001000s ]
+[ error ] [8]未定义数组下标: 0[E:\Tp5_Bing\application\index\model\Bing.php:42]
+---------------------------------------------------------------
+[ 2018-12-04T10:17:54+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181127.html
+[运行时间：1.073000s] [吞吐率：0.93req/s] [内存消耗：2,925.30kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889758',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181127',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181127' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=34  WHERE  `date` = 20181127 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:18:10+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.100000s] [吞吐率：0.91req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889875',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.022000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:18:14+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181123.html
+[运行时间：1.086000s] [吞吐率：0.92req/s] [内存消耗：2,925.88kb] [文件加载：56]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889891',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181123' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=93  WHERE  `date` = 20181123 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:18:18+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.097000s] [吞吐率：0.91req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889895',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:18:30+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181123.html
+[运行时间：1.100000s] [吞吐率：0.91req/s] [内存消耗：2,777.85kb] [文件加载：54]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889899',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181123' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=94  WHERE  `date` = 20181123 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:19:50+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.093000s] [吞吐率：0.91req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889911',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.998000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:20:26+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.107000s] [吞吐率：0.90req/s] [内存消耗：3,010.09kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543889991',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:20:31+08:00 ] 127.0.0.1 GET www.bing.net:808/?p=8
+[运行时间：1.113000s] [吞吐率：0.90req/s] [内存消耗：3,008.83kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890027',
+)
+[ info ] [ PARAM ] array (
+  'p' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.022000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 84,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:20:41+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.109000s] [吞吐率：0.90req/s] [内存消耗：3,010.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890031',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:21:08+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.088000s] [吞吐率：0.92req/s] [内存消耗：3,010.30kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890041',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.996000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:21:13+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.115000s] [吞吐率：0.90req/s] [内存消耗：3,010.30kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890069',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:22:42+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.130000s] [吞吐率：0.88req/s] [内存消耗：3,010.62kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890073',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.022000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:22:51+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.074000s] [吞吐率：0.93req/s] [内存消耗：3,010.68kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890163',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:23:51+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.076000s] [吞吐率：0.93req/s] [内存消耗：2,888.20kb] [文件加载：55]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890171',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:24:15+08:00 ] 127.0.0.1 GET www.bing.net:808/index/api/create_data
+[运行时间：4.740000s] [吞吐率：0.21req/s] [内存消耗：3,016.88kb] [文件加载：65]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'create_data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->create_data[ E:\Tp5_Bing\application\index\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` WHERE  `date` = 20181204 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `bing` (`img_url` , `date` , `name` , `content` , `area` , `sina_url`) VALUES ('20181204.jpg' , 20181204 , '斯芬克斯天文台，瑞士 (© Jan Greune/Alamy)' , '还好斯芬克斯天文台不是地球上最高的天文台，对于那些乘火车去阿尔卑斯山、乘电梯去斯芬克斯观景台的旅行者来说，这会让他们觉得自己很幸运了。星空是学者关注的焦点，不过游客可以在海拔3571米高的斯芬克斯观景台上，360度饱览阿尔卑斯山山脉全景。接下来，快跟我们一起看看世界上还有哪些富有特色的天文台吧！' , '欧洲,瑞士，少女峰山坳' , 'https://ww2.sinaimg.cn/large/006MPQcGly1fxui31gjfpj311y0lcjvt') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:24:15+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：5.877000s] [吞吐率：0.17req/s] [内存消耗：3,011.40kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890171',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.024000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:24:21+08:00 ] 127.0.0.1 GET www.bing.net:808/index/api/create_data
+[运行时间：1.088000s] [吞吐率：0.92req/s] [内存消耗：2,755.17kb] [文件加载：53]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'create_data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->create_data[ E:\Tp5_Bing\application\index\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` WHERE  `date` = 20181204 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:24:21+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：2.246000s] [吞吐率：0.45req/s] [内存消耗：3,011.43kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890255',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:24:26+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181204.html
+[运行时间：1.084000s] [吞吐率：0.92req/s] [内存消耗：2,778.38kb] [文件加载：54]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890261',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181204',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181204' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=1  WHERE  `date` = 20181204 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:24:31+08:00 ] 127.0.0.1 GET www.bing.net:808/index/api/create_data
+[运行时间：1.088000s] [吞吐率：0.92req/s] [内存消耗：2,755.17kb] [文件加载：53]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'create_data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->create_data[ E:\Tp5_Bing\application\index\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` WHERE  `date` = 20181204 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:24:31+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：2.220000s] [吞吐率：0.45req/s] [内存消耗：3,011.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890267',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:25:42+08:00 ] 127.0.0.1 GET www.bing.net:808/bing/20181204.html
+[运行时间：1.096000s] [吞吐率：0.91req/s] [内存消耗：2,777.66kb] [文件加载：54]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890272',
+)
+[ info ] [ PARAM ] array (
+  'date' => '20181204',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/detail\view.html [ array (
+  0 => 'bings',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] select * from bing where date='20181204' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] UPDATE `bing`  SET `view_num`=2  WHERE  `date` = 20181204 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:25:45+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[运行时间：1.100000s] [吞吐率：0.91req/s] [内存消耗：3,010.45kb] [文件加载：59]
+[ info ] [ LANG ] E:\Tp5_Bing\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bing.net:808',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bing.net:808/?p=8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=rmbshj16l79ve14lq0rsvvq6u2; Hm_lvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543887332; Hm_lpvt_5f18eaeb7bce19b4fa39d079f4c10c7e=1543890342',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Tp5_Bing\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] ./template/index\index.html [ array (
+  0 => 'bings',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:34:01+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:34:23+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.023000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:34:28+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:34:32+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:46:00+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:46:24+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:46:42+08:00 ] 127.0.0.1 GET www.bing.net:808/?p=9
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 96,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:46:46+08:00 ] 127.0.0.1 GET www.bing.net:808/?p=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:55:47+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-04T10:55:50+08:00 ] 127.0.0.1 GET www.bing.net:808/
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012000s ] mysql:host=localhost;port=3306;dbname=bing;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bing` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bing` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `bing` ORDER BY `date` DESC LIMIT 0,12 [ RunTime:0.000000s ]

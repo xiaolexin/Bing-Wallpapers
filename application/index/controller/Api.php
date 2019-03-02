@@ -30,7 +30,8 @@ class Api extends Controller{
 				if($result['err']!=1&&$res_sina['code']==200){
 					//保存数据到数据库
 					$data['img_url']=$result['data'];
-                                        $data['sina_url']=$res_sina['img_url'];
+					$data['sina_url']=$res_sina['img_url'];
+					$data['area']='位置接口暂时失效';$data['content']='';
 					$rres=$this->model->insertOne($data);
 					if($rres){print_r('今日数据七牛云、新浪图床均已写入成功！-'.date('Y-m-d H:i:s'));}else{print_r('数据写入失败');}
 				}else{

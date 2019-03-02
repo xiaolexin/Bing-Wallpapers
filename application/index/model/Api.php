@@ -18,7 +18,7 @@ class Api extends Model{
 	    $re = curl_exec($ch);
 	    curl_close($ch);
 	    $res1 = json_decode($re,1);//电脑版返回内容
-	    $res2 = json_decode(file_get_contents('https://cn.bing.com/cnhp/coverstory/'),1);//移动版返回内容
+	    // $res2 = json_decode(file_get_contents('https://cn.bing.com/cnhp/coverstory/'),1);//移动版返回内容
 	    $res= array(
 	    	/* 更改图片尺寸，减小体积 */
 	        'img_url' => 'https://cn.bing.com'.str_replace('1920x1080','1366x768',$res1['images'][0]['url']),
@@ -27,9 +27,9 @@ class Api extends Model{
 	        /* 故事标题 */
 	        'name' => $res1['images'][0]['copyright'],
 	        /* 内容 */
-	        'content' => $res2['para1'],
+	        // 'content' => $res2['para1'],
 	        /*地区*/
-	        'area' => $res2['Continent'].','.$res2['attribute']
+	        // 'area' => $res2['Continent'].','.$res2['attribute']
 	    );
 	    return $res;
 	}
